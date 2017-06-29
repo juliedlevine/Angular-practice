@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<form (submit)="onSubmit()">
+    <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" [(ngModel)]="name"/>
+    </div>
+    <div>
+        <label for="Comment">Comment</label>
+        <textarea name="comment" rows="8" cols="80" [(ngModel)]="comment"></textarea>
+    </div>
+    <div>
+        <button>Submit</button>
+    </div>
+</form>
